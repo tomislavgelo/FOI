@@ -1,0 +1,91 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color:#EEEEEE;
+	height:100%;
+  	width:90%;
+	margin:auto;
+	text-align:left;
+	position: relative;
+	padding:5px;
+}
+
+header {
+	background-color:white;
+	color:black;
+	padding:5px;
+	text-align:left;
+	height:31%;
+}
+
+main {
+  min-height: 60vh;
+  padding: 5px;
+}
+
+table {
+	margin-top:5px;
+	border-bottom:1pt solid rgb(110, 118, 138);
+	border-top:1pt solid rgb(110, 118, 138);
+	border-collapse:collapse;
+	border-spacing:0;
+	width: 100%;
+	position: relative;
+}
+
+th {
+	background-color:rgb(110, 118, 138);
+	border-bottom:1pt solid rgb(110, 118, 138);
+	text-align:left;
+	padding: 10px;
+}
+
+td {
+	border-bottom:1pt dotted #CCCCCC;
+	padding: 4px;
+}
+
+a {
+	text-decoration:none;
+	color: black;
+}
+
+footer {
+	text-align:center;
+	padding:5px;
+	padding-bottom: 20px;
+}
+
+.menu {
+	background-color:rgb(110, 118, 138);
+	padding:3px;
+	text-align:center;
+}
+
+.naziv { 
+	cursor: pointer;
+}
+
+a:hover {
+	color: rgb(0, 195, 255);
+}
+
+tr:hover {
+	background-color:white;
+}
+
+div.prijava {
+	position: relative;
+	text-align: center;
+}
+p.greska {
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+div.logo {
+	float: right;
+}
